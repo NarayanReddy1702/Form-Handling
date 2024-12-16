@@ -1,0 +1,99 @@
+*{
+    font-family: 'Times New Roman';
+
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex-bet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #371c5c;
+    border: 2px solid #371c5c;
+    background-color: white;
+}
+.nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: #fff;
+    padding: 0 3vw;
+    box-shadow: 0 0 20px 1px black;
+}
+ .nav h2{
+    font-size: 4vh;
+    font-family: gill Sans;
+
+ }
+.nav ul li{
+ list-style: none;
+ padding: 0 3vh;
+ cursor: pointer;
+ position: relative;
+}
+.active{
+    color: #371c5c;
+}
+.nav ul li  a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+.nav ul li::after{
+    content: "";
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+ 
+}
+.sign-btn{
+    text-decoration: none;
+    background-color: #371c5c;
+    color: white;
+}
+
+/* .nav ul li:hover  .nav ul li::after{
+    animation: anime 0.3s linear;
+}
+@keyframes anime {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+} */
+.nav .btn{
+    border-radius: 30px;
+    font-size: 2.5vh;
+}
+.nav ul li .active{
+    color: #371c5c;
+    text-decoration: underline;
+    font-weight: 550;
+}

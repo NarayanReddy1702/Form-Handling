@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Phetsarath:wght@400;700&family=Ponnala&family=Yuji+Mai&display=swap');
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-sec{
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+.left{
+    width: 40%;
+    height: 90%;
+    border: 2px solid rgb(255, 255, 255);
+}
+.left input{
+    background-color: transparent;
+    outline: none;
+    border:none;
+    margin: 10px 30px;
+    color: rgba(255, 255, 255, 0.556);
+    font-size: 16px;
+}
+.left input::placeholder{
+    font-weight: 600;
+}
+
+.right{
+    width: 40%;
+    height: 90%;
+    border: 2px solid white;
+    color: white;
+    align-items: start;
+    justify-content: start;
+    padding: 20px 30px;
+}
+.right h1{
+    font-size: 26px;
+    padding-bottom: 9px;
+}
+
+
+

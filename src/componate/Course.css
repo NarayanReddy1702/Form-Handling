@@ -1,0 +1,35 @@
+.course-sec{
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20vw;
+    height: 45vh;
+    margin: 0vh 2vh;
+    border-radius: 1vh;
+    box-shadow: 0 0 5px 0.5px black;
+    row-gap: 1.5vh;
+}
+
+.card img{
+    object-fit: cover;
+    width:80%;
+    height: 50%;
+   
+}
+.card h4{
+    text-align: center;
+    opacity: 0.8;
+    width: 80%;
+    padding-top: 2vh;
+}
+
+.card button{
+    background-color:rgb(55, 28, 92) ;
+    color: white;
+}
+.card:hover{
+  scale: 1.06;
+  transition: all 0.3s ease-in-out;
+}

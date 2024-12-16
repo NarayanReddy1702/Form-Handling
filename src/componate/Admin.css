@@ -1,0 +1,36 @@
+.table{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 5vh;
+}
+table{
+    width: 80%;
+    border: 2px solid black;
+
+}
+table tr,table th, table td{
+    border: 2px solid balck;
+    color: black;
+    text-align: center;
+    padding: 2vh;
+
+} 
+table td{
+    font-size: 2vh;
+}
+table th{
+    text-transform: uppercase;
+    font-size: 2.5vh;
+}
+table td:nth-child(2){
+   text-transform: uppercase;
+}
+table td:nth-child(1){
+    font-size: 2.5vh;
+}
+table td:nth-last-child(1) , table td:nth-last-child(2){
+    font-size: 3vh;
+}

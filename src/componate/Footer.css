@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-details{
+    width: 100%;
+    height: 35vh;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+    background-color: black;
+}
+.company-details{
+ margin-top:2vh;
+}
+.company-details ul{
+    padding-top:14px ;
+    /* background-color: red; */
+}
+.company-details ul li{
+    list-style: none;
+    padding: 5px 0;
+    padding-left: 3vh;
+}
+.company-details h3{
+   padding-left:17px ;
+   color:rgb(55, 28, 92) ;
+}
+.company-details ul li a{
+ color:white;
+ text-decoration: none;
+ cursor: pointer;
+}
+.company-details ul li a:hover{
+    color: rgb(55, 28, 92) ;
+}

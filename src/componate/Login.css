@@ -1,0 +1,105 @@
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.sign-in-part{
+    width: 100%;
+    height: 90vh;
+  
+}
+.sign-in-part-child{
+    width: 50vh;
+    border: 2px solid black;
+    background-color: rgb(238, 236, 236);
+   padding:40px 15px;
+   border-radius: 10px;
+
+}
+.sign-in-part-child h1{
+    color: #371c5c;
+}
+.sign-in-part-child form{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.sign-in-part-child form .input-sec{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+.sign-in-part-child form .input-sec input{
+    width: 100%;
+    font-size: 14px;
+}
+.sign-in-part-child .input-sec label{
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.sign-in-part-child form .sign-in-btn{
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: #371c5c;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 20vh;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sign-in-part-child form .sign-in-btn:hover{
+    background-color: transparent;
+    border: 2px solid #371c5c;
+    color: #371c5c;
+    font-weight: 700;
+}
+.or-with-line{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.or-with-line hr{
+    color: black;
+    width: 90%;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.or-with-line h5{
+    position: absolute;
+    top: 60%;
+    background-color: rgb(238, 236, 236);
+    padding: 0 2px;
+    box-shadow: 0 0 10px 10px rgb(238, 236, 236);
+}
+
+.connect-account{
+    width: 100%;
+    margin-top: 20px;
+    row-gap: 20px;
+   
+}
+.connect-account .connect-google-acc{
+   width: 230px;
+   height: 5vh;
+   border: 2px solid black;
+   border-radius: 20px;
+   column-gap: 10px;
+}
+.connect-account .connect-google-acc img{
+width: 20px;
+}
+.connect-account .connect-google-acc h5{
+   font-weight: 500;
+   font-size: 14px;
+   cursor: pointer;
+}

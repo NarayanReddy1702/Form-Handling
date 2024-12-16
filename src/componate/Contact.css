@@ -1,0 +1,90 @@
+
+.contact-sec{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    
+ }
+
+ .contact-sec h1{
+    position: absolute;
+    top: 5%;
+    font-size: 4.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    color: #371c5c;
+    font-family: gill Sans;
+
+  
+ }
+ .img-prt{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    position: absolute;
+
+
+ }
+
+ .img-prt img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+  
+    border-radius:20px ;
+ 
+ }
+
+ .form-prt{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(131, 129, 132); */
+    position: absolute;
+   right: 0;
+
+ }
+ 
+ .form-prt form{
+    display: flex;
+   flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;transform: translate(-50%,-50%);
+  
+ }
+ form label{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding-bottom: 5px;
+ }
+ form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    width: 70vh;
+    background-color: transparent;
+    font-family: sans-serif;
+    outline: none;
+}
+
+form .btn{
+   margin-top: 5%;
+    padding: 15px 30px;
+    background-color: #371c5c;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E1E4E5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form input:focus,form textarea:focus{
+   border: 1px solid #371c5c;
+   box-shadow: 0 0 2px 0.5px #371c5c;
+}

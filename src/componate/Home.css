@@ -1,0 +1,67 @@
+.home{
+    width: 100%;
+    height: 90vh;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    align-items:start;
+    justify-content: center;
+    padding-left: 10vh;
+    row-gap: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+.left h1{
+    font-size:6vh;
+    font-family: gill Sans;
+
+}
+.left p{
+    width: 70%;
+}
+.btn-sec{
+    column-gap: 3vh;
+}
+.btn-sec  .start{
+    background-color: rgb(55, 28, 92) ;
+    color: white;
+    font-size: 2vh;
+    font-weight: 500;
+}
+.btn:hover{
+    color: #371c5c;
+    background-color: transparent;
+    border: 2px solid #371c5c;
+    font-weight: 500;
+    transition: all ease-in-out 0.2s;
+
+}
+.btn-sec .join{
+    font-size: 2vh;
+    font-weight: 500;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+.right img{
+    width: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
